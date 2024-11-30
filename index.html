@@ -1,63 +1,104 @@
+html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная страница</title>
-    <link rel="shortcut icon" href="wikipedia.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li>
-        <a href="index.html">Главная</a>
-      </li>
-      <li>
-        <a href="blog1.html">Блог1</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="header">
-  <h1>Этот блог я пишу для своего преподователя</h1>
-</div> 
-  
- <div class="text-center">
-<h2>Какие бывают автомобили и какие из них самые надеждные?</h2>
+    <link rel="shortcut icon" href="wikipedia.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" style="justify-content: center">
+      <ul style="list-style: none; padding: 0; display: flex">
+        <li style="margin: 0 10px">
+          <a class="btn btn-primary" href="index.html">Главная</a>
+        </li>
+        <li style="margin: 0 10px">
+          <a class="btn btn-primary" href="porshe.html">Porshe</a>
+        </li>
+      </ul>
+    </nav>
 
-<div class="h5">
-  <ul>
-    <li>Mercedez</li>
-    <li>Bmw</li>
-    <li>Audio</li>
-    <li>Li</li>
-    <li>ВАЗ</li>
-  </ul>
-</div>
-<h2>А какие из них самые надежные?</h2>
+    <div class="header text-center bg-danger text-white py-3">
+      <h1>Блог о машинах</h1>
+    </div>
 
-<p class="center">Самые надежные автомобили те, которые проехали по дорогам в России</p>
-<div class="text-center">
-  <a href="blog1.html" class="btn btn-primary">Перейти к блогу</a>
-</div>
-
-  <div class="container mt-5">
-        <img src="photo/348873cs-960.jpg" class="rounded float-left" alt="Porsh">
-        
-        <p class="center">А еще порше классная машинка</p>
-        <img src="photo/d4eb3cf5247c9bd36ad9039a79c50146.jpg" class="rounded float-right" alt="lamborgini"> 
-        
-        
-        <img src="photo/502cc77db721420c030001a1.jfif" class="img-fluid" alt="bmv">
-        Ну и добавим сюда бмв
-        
+    <div class="container text-center my-4">
+      <h2>Автомобили: друзья или враги?</h2>
+      <div class="h5">
+        <ul class="list-unstyled">
+          <li>
+            Mercedez – для тех, кто хочет, чтобы их машина выглядела лучше, чем
+            они.
+          </li>
+          <li>Bmw – для любителей скорости и маленьких штрафов.</li>
+          <li>
+            Audi – когда хочешь, чтобы все знали, что ты успешен, даже если это
+            не так.
+          </li>
+          <li>Li – для тех, кто ещё не определился, что значит «круто».</li>
+          <li>ВАЗ – классика, которая не подведет, даже если подведет.</li>
+        </ul>
       </div>
-     
- 
-<p>Сделаем итог, что все машины по свеому хороши, осталось тебе выбрать только те, которые тебе больше по душе, приезжай к нам в автосалон и выбери свою мечту </p>
- </div>
-</body>
+      <h2>А какие из них самые надежные?</h2>
+      <p>
+        Самые надежные автомобили — это те, которые не ломаются, пока ты не
+        доедешь до работы. А если они всё же ломаются, то пусть это будет в
+        выходной!
+      </p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="photo/348873cs-960.jpg"
+            class="img-fluid rounded"
+            alt="Porsh"
+          />
+          <p>
+            Порше — это как хорошая шутка: все смеются, пока ты не начинаешь
+            рассказывать о ценах на запчасти.
+          </p>
+          <a href="porshe.html" class="btn btn-primary mb-4"
+            >Хочешь больше узнать о Porshe?</a
+          >
+        </div>
+        <div class="col-md-4">
+          <img
+            src="photo/d4eb3cf5247c9bd36ad9039a79c50146.jpg"
+            class="img-fluid rounded"
+            alt="lamborgini"
+          />
+          <p>
+            Ламборгини — для тех, кто хочет, чтобы каждый раз, когда они
+            выезжают на дорогу, все оборачивались и шептались.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="photo/502cc77db721420c030001a1.jfif"
+            class="img-fluid rounded"
+            alt="bmv"
+          />
+          <p>
+            БМВ — это как хорошая работа: требует много усилий, но в итоге
+            приносит удовольствие.
+          </p>
+        </div>
+      </div>
+
+      <p>
+        В общем, все эти машины хороши по-своему! Главное — выбирать ту, которая
+        подходит именно тебе. Не забудь заглянуть к нам в автосалон и выбрать
+        свою мечту. А если мечта не сбудется, всегда можно покататься на нашей
+        классике!
+      </p>
+    </div>
+  </body>
 </html>
